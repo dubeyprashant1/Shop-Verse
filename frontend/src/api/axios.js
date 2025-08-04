@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export const BASE_URL = "http://localhost:8080";
+export const BASE_URL = "https://shop-verse-ozq7.onrender.com";
 
 // Get token from localStorage (optional helper)
 const getToken = () => localStorage.getItem('accessToken');
