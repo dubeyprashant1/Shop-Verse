@@ -57,7 +57,7 @@ func main() {
 
 	port := os.Getenv("PORT")
 	if port == "" {
-		port = "8080" // default fallback for local development
+		port = "8080"
 	}
 
 	if err := r.Run(":" + port); err != nil {
