@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"ecommerce/models"
+	"backend/models"
 	"net/http"
 	"github.com/gin-gonic/gin"
 )

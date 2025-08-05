@@ -1,9 +1,9 @@
 package main
 
 import (
-	"ecommerce/handlers"
-	"ecommerce/middleware"
-	"ecommerce/models"
+	"backend/handlers"
+	"backend/middleware"
+	"backend/models"
 	"github.com/joho/godotenv"
 	"github.com/gin-gonic/gin"
 	"log"

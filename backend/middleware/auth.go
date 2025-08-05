@@ -5,7 +5,7 @@ import (
     "strings"
 
     "github.com/gin-gonic/gin"
-    "ecommerce/utils" // adjust import path
+    "backend/utils"
 )
 
 func AuthMiddleware() gin.HandlerFunc {
