@@ -60,7 +60,8 @@ func main() {
 		port = "8080"
 	}
 
-	if err := r.Run(":" + port); err != nil {
-		log.Fatal("Server error:", err)
+	if err := r.Run("0.0.0.0:" + port); err != nil {
+		log.Fatalf("Failed to run server: %v", err)
 	}
+
 }
